@@ -1,0 +1,24 @@
+{
+  "name": "cli_clash",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/main.js",
+    "fix": "npx prettier --write . && npx eslint --fix .",
+    "test": "mocha --recursive --exit"
+  },
+  "author": "Vályogos Ádám",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1"
+  },
+  "dependencies": {
+    "mocha": "^10.0.0",
+    "prettier": "^2.7.1",
+    "readline-sync": "^1.4.10"
+  }
+}
